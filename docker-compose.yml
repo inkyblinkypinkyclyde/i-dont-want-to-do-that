@@ -1,0 +1,7 @@
+services:
+  scheduler:
+    container_name: idwtdt-c
+    image: idwtdt-i
+    restart: always
+    ports:
+      - "8080:8080"
